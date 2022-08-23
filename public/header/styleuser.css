@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+button:focus{
+	outline: none;
+}
+#icon{
+	margin-top: 50px;
+}
+#title{
+	font-family: 'Bree Serif', serif;
+}
+
+@media (max-width: 775px) {
+	.user-content{
+		margin: 7px;
+	}
+	#icon{
+		margin-top: 5px;
+	}
+	#img-none{
+		display: none;
+	}
+
+}
+
+#btn-voting:hover{
+	color: white;
+	text-decoration: underline;
+
+}
+#user-icon{
+	font-size: 120px;
+}
+
+@media(max-width:575px )
+{
+	#user-icon{
+		margin-top: 0;
+		font-size: 80px;
+	}
+}
